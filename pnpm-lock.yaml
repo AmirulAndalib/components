@@ -319,8 +319,8 @@ importers:
         specifier: ^0.4.0
         version: 0.4.0
       '@modelcontextprotocol/server':
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 2.3.0
+        version: 2.3.0
       '@octokit/rest':
         specifier: 22.0.1
         version: 22.0.1
@@ -903,6 +903,7 @@ packages:
   '@angular-devkit/build-angular@22.2.0':
     resolution: {integrity: sha512-syOm4RmTeFOwhBGJiDr8ZEAFyzXXXPMg7TcXFcBPuaz/Mu7xGMb4CPeEztbVpa6JsZFJU2SPOOI3ZEtidH7RJA==}
     engines: {node: ^22.22.3 || ^24.15.0 || >=26.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
+    deprecated: Angular's Webpack support is deprecated. Use the esbuild and Vite-based "@angular/build" package instead.
     peerDependencies:
       '@angular/compiler-cli': ^22.0.0
       '@angular/core': ^22.0.0
@@ -1075,6 +1076,7 @@ packages:
   '@angular/platform-browser-dynamic@22.2.0':
     resolution: {integrity: sha512-KG/m6Jz3tKAeXWFYFgEISiEsWSBQusemI+/uafmq2GYiI4cZneCeW35v7mHujgFzVH8jzyJwPyPQtpnKDdGg6g==}
     engines: {node: ^22.22.3 || ^24.15.0 || >=26.0.0}
+    deprecated: '@angular/platform-browser-dynamic is deprecated. Use `@angular/platform-browser` instead.'
     peerDependencies:
       '@angular/common': 22.2.0
       '@angular/compiler': 22.2.0
@@ -2739,8 +2741,8 @@ packages:
     resolution: {integrity: sha512-pJCEwGG7Lfr/+PQp9ZTwKXNeO5wzbfKL7H3MYpCorM4oFBoQrdjnBgEoqG+RjhsvS1FKrDbKux+M1HhlnGWqcA==}
     engines: {node: '>=20'}
 
-  '@modelcontextprotocol/core@2.1.0':
-    resolution: {integrity: sha512-YdFj5gMRHr0gYNAhTbQDgjLHiEJdIAUYxomhKseUNye7ZGlISQmUoLh2sveFFCiQ7j2YMffT1kgSND0FSfIFjQ==}
+  '@modelcontextprotocol/core@2.3.0':
+    resolution: {integrity: sha512-09BHFaNVBe5pB2AhzCfLj0cqmsKLERvZQ4FblzP90UMGLaXVqdZPByFjURwsUYCmxonUW2yAwgTTvle+8O2/8w==}
     engines: {node: '>=20'}
 
   '@modelcontextprotocol/sdk@1.30.0':
@@ -2756,8 +2758,8 @@ packages:
     resolution: {integrity: sha512-YhHWdHfpFMQfd0prsEnxKeS3Qz3ytIGmsS0sth4KDjnacIT7hxk6hXHkJ9KysxlkvTM+WZAtQbbcUhdoP4Hvtw==}
     engines: {node: '>=20'}
 
-  '@modelcontextprotocol/server@2.1.0':
-    resolution: {integrity: sha512-FdvwZU5N03O77Suh35JqjAqq5R1ZTEPFtwu6N4BgBq28qrQtrCnpbLL5U2pwYCuE194jAw0xnlOVmIqhfoYuUQ==}
+  '@modelcontextprotocol/server@2.3.0':
+    resolution: {integrity: sha512-+6b0LdsQLmHsvS7J6sQJ4weTpzUn61fU1JKS+321/+IyDYoHW5CR2Tgqcs6GgAAQvlesCo6yX3xttgmx+XGtJw==}
     engines: {node: '>=20'}
 
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.4':
@@ -2922,6 +2924,7 @@ packages:
   '@ngtools/webpack@22.2.0':
     resolution: {integrity: sha512-p71fd66PAkPGQCxYuaxFFSGPUOGdLsE3af/yXAMshUE6+XJyJp7RIOYoyu1dLuAOjrYpua+lqj/yl/ldOVu+Jg==}
     engines: {node: ^22.22.3 || ^24.15.0 || >=26.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
+    deprecated: Angular's Webpack support is deprecated. Use the esbuild and Vite-based "@angular/build" package instead.
     peerDependencies:
       '@angular/compiler-cli': ^22.0.0
       typescript: 6.0.2
@@ -12297,7 +12300,7 @@ snapshots:
     dependencies:
       zod: 4.6.5
 
-  '@modelcontextprotocol/core@2.1.0':
+  '@modelcontextprotocol/core@2.3.0':
     dependencies:
       zod: 4.6.5
 
@@ -12328,9 +12331,9 @@ snapshots:
       '@modelcontextprotocol/core': 2.0.0
       zod: 4.6.5
 
-  '@modelcontextprotocol/server@2.1.0':
+  '@modelcontextprotocol/server@2.3.0':
     dependencies:
-      '@modelcontextprotocol/core': 2.1.0
+      '@modelcontextprotocol/core': 2.3.0
       zod: 4.6.5
 
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.4':
